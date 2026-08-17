@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TBarba — Video Editor & Motion Designer</title>
+  <meta name="description" content="Portfolio of TBarba, a video editor and motion designer crafting stories through motion." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="scroll-progress"></div>
+
+  <nav id="nav">
+    <a href="#hero" class="nav-logo" data-config="site.name">TBarba</a>
+    <ul class="nav-links">
+      <li><a href="#reel">Demo Reel</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Video Editor & Motion Designer</p>
+      <h1 class="hero-title" data-config="site.tagline">Crafting stories through motion</h1>
+      <div class="hero-actions">
+        <a href="#reel" class="btn btn-primary">Watch Demo Reel</a>
+        <a href="#work" class="btn btn-ghost">View Work</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="reel">
+    <div class="section-head">
+      <span class="section-label">01 / Demo Reel</span>
+      <h2 data-config="demoReel.title">Demo Reel 2026</h2>
+      <p class="section-desc" data-config="demoReel.description"></p>
+    </div>
+    <div class="reel-frame">
+      <div class="reel-poster" id="reelPoster"></div>
+      <button class="reel-play" id="reelPlayBtn" aria-label="Play demo reel">
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-head">
+      <span class="section-label">02 / Selected Work</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="filter-bar" id="filterBar"></div>
+    <div class="work-grid" id="workGrid"></div>
+  </section>
+
+  <section id="about">
+    <div class="section-head">
+      <span class="section-label">03 / About</span>
+      <h2>Who I Am</h2>
+    </div>
+    <div class="about-content">
+      <p class="about-bio" data-config="site.bio"></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-head">
+      <span class="section-label">04 / Contact</span>
+      <h2>Let's Work Together</h2>
+    </div>
+    <div class="contact-content">
+      <a class="contact-email" data-config="site.email" data-link="mailto"></a>
+      <div class="social-links" id="socialLinks"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> <span data-config="site.name">TBarba</span>. All rights reserved.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

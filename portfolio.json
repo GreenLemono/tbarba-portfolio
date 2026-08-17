@@ -1,0 +1,87 @@
+{
+  "site": {
+    "name": "TBarba",
+    "title": "Video Editor & Motion Designer",
+    "tagline": "Crafting stories through motion",
+    "bio": "I'm a video editor and motion designer with a passion for cinematic storytelling. From short films to brand content, I bring ideas to life through precise editing, dynamic motion graphics, and immersive 3D work.",
+    "email": "hello@tbarba.com",
+    "social": {
+      "vimeo": "https://vimeo.com/tbarba",
+      "youtube": "https://youtube.com/@tbarba",
+      "instagram": "https://instagram.com/tbarba",
+      "linkedin": "https://linkedin.com/in/tbarba"
+    }
+  },
+  "demoReel": {
+    "title": "Demo Reel 2026",
+    "description": "A showcase of my best work from the past year — spanning narrative edits, motion design, and 3D animation.",
+    "embedUrl": "https://player.vimeo.com/video/000000000",
+    "poster": "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=1600&q=80"
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Echoes of the City",
+      "category": "Videos",
+      "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000001",
+      "description": "A short documentary exploring urban soundscapes and the people who shape them."
+    },
+    {
+      "id": "p2",
+      "title": "Aurora — Brand Film",
+      "category": "Videos",
+      "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c47e2c9d2?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000002",
+      "description": "Launch film for a sustainable fashion brand, shot and cut in 3 weeks."
+    },
+    {
+      "id": "p3",
+      "title": "Midnight Drive",
+      "category": "Shorts",
+      "thumbnail": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000003",
+      "description": "A 90-second mood piece about night driving and reflection."
+    },
+    {
+      "id": "p4",
+      "title": "Fragments",
+      "category": "Shorts",
+      "thumbnail": "https://images.unsplash.com/photo-1499781350541-7783c675e540?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000004",
+      "description": "Experimental short exploring memory and loss through collage animation."
+    },
+    {
+      "id": "p5",
+      "title": "Helix — Product Visualization",
+      "category": "3D",
+      "thumbnail": "https://images.unsplash.com/photo-1635776062127-d379b38baa7d?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000005",
+      "description": "Cinematic 3D product render for a tech startup, animated in Blender + Octane."
+    },
+    {
+      "id": "p6",
+      "title": "Nebula Loop",
+      "category": "3D",
+      "thumbnail": "https://images.unsplash.com/photo-1534796636912-3b95b3ab5c00?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000006",
+      "description": "Abstract particle simulation created for a music festival backdrop."
+    },
+    {
+      "id": "p7",
+      "title": "Pulse — Title Sequence",
+      "category": "Motion Graphics",
+      "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b466107b?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000007",
+      "description": "Opening title sequence for a thriller series, designed in After Effects."
+    },
+    {
+      "id": "p8",
+      "title": "Kinetic Type — Spoken",
+      "category": "Motion Graphics",
+      "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b8?w=800&q=80",
+      "videoUrl": "https://player.vimeo.com/video/000000008",
+      "description": "Kinetic typography piece built around a spoken-word performance."
+    }
+  ]
+}
