@@ -95,7 +95,8 @@ function renderProjects(projects) {
 document.getElementById('reelPlayBtn').addEventListener('click', () => {
   if (config?.demoReel?.embedUrl) {
     const frame = document.querySelector('.reel-frame');
-    frame.innerHTML = `<iframe class="reel-iframe" src="${config.demoReel.embedUrl}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`;
+    frame.innerHTML = `<iframe class="reel-iframe" src="${config.demoReel.embedUrl}" allow="autoplay; fullscreen;
+     picture-in-picture" allowfullscreen></iframe>`;
   }
 });
 
