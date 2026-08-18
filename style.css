@@ -220,7 +220,7 @@ section { padding: 120px 40px; max-width: var(--max-w); margin: 0 auto; }
 /* WORK GRID */
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(2, (1fr));
   gap: 24px;
 }
 .work-card {
